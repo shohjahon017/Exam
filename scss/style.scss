@@ -1,0 +1,12 @@
+@import "./fonts";
+@import "./normalize";
+@import "./header";
+
+$white: rgba(255, 255, 255, 1);
+$black2: rgba(0, 0, 0, 0.15);
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
