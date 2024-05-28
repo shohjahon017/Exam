@@ -3,11 +3,12 @@ $ptsans: "PT Sans";
 $gray: rgba(107, 107, 108, 1);
 $black: rgba(54, 55, 56, 1);
 $white: rgba(255, 255, 255, 1);
+$darrk: rgba(11, 117, 114, 1);
 .clients__container {
   width: 1240px;
   height: 917px;
   margin: 212px 100px;
-  background-color: rgba(11, 117, 114, 1);
+  background-color: $darrk;
   h3 {
     max-width: 477px;
     font-family: $exo;
@@ -20,12 +21,49 @@ $white: rgba(255, 255, 255, 1);
   .clients__box {
     width: 652px;
     height: 747px;
-    padding-top: 85px;
-    padding-left: 521px;
+    margin-top: -295px;
+    margin-left: 521px;
     border-radius: 8px;
-    color: $white;
+    background-color: $white;
     .box__head {
       display: flex;
+      padding-left: 41px;
+      gap: 194px;
+    }
+    .clients_line {
+      width: 588px;
+      height: 0px;
+      margin: 32px;
+      border: 1px solid rgba(215, 215, 221, 1);
+    }
+    p {
+      font-family: $ptsans;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 16.5px;
+      color: $gray;
+    }
+  }
+  .line3 {
+    width: 0px;
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .block2 {
+    align-items: center;
+    justify-content: center;
+    width: 588px;
+    height: 45px;
+    margin-left: 32px;
+    background-color: $darrk;
+    display: flex;
+    gap: 36px;
+    span {
+      font-family: $exo;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: $white;
     }
   }
 }

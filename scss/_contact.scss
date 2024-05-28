@@ -1,5 +1,11 @@
+$gray1: rgba(249, 249, 251, 1);
+$linegray: rgba(233, 234, 242, 1);
+
 .contacts__container {
   padding-top: 130px;
+  .contact {
+    display: flex;
+  }
   h4 {
     font-family: $exo;
     font-size: 48px;
@@ -10,6 +16,7 @@
   .left-contact {
     display: flex;
     gap: 37px;
+    margin-bottom: 44px;
     p {
       font-family: $ptsans;
       font-size: 14px;
@@ -25,6 +32,41 @@
       line-height: 24px;
       color: $black;
       text-decoration: none;
+    }
+  }
+  .right {
+    width: 794px;
+    height: 383px;
+    top: 6580px;
+    left: 546px;
+    border-radius: 5px;
+    background-color: $gray1;
+    margin-left: 198px;
+  }
+  .right-about {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin: 20px 48px;
+    p {
+      font-family: $ptsans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      color: $gray;
+    }
+    span {
+      font-family: $exo;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      color: $black;
+      cursor: text;
+    }
+    .line2 {
+      width: 674px;
+      height: 1px;
+      border: 1px solid $linegray;
     }
   }
 }
