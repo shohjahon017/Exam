@@ -1,0 +1,88 @@
+$exo: "Exo 2";
+$ptsans: "PT Sans";
+$white: rgba(255, 255, 255, 1);
+$black: rgba(54, 55, 56, 1);
+$gray: rgba(107, 107, 108, 1);
+.whyus__container {
+  position: relative;
+  padding-top: 67px;
+  h4 {
+    max-width: 362px;
+    position: absolute;
+    left: 90px;
+    top: 178px;
+    font-family: $exo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    z-index: 20;
+    color: $white;
+  }
+}
+.truck {
+  position: relative;
+}
+.rec {
+  position: absolute;
+  z-index: 10;
+}
+.whyus__bottom {
+  display: flex;
+  gap: 140px;
+  margin-left: 164px;
+
+  .about {
+    display: flex;
+    gap: 40px;
+  }
+}
+.whyus__bottom-left {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+
+  h5 {
+    margin-top: -2px;
+    font-family: $exo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: $black;
+  }
+  p {
+    max-width: 291px;
+    margin-top: -16px;
+    font-family: $ptsans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $gray;
+  }
+}
+
+.whyus__bottom-right {
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+
+  h5 {
+    margin-top: -2px;
+    font-family: $exo;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: $black;
+  }
+  p {
+    max-width: 291px;
+    margin-top: -16px;
+    font-family: $ptsans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $gray;
+  }
+}
