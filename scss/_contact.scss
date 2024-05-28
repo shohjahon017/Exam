@@ -70,3 +70,30 @@ $linegray: rgba(233, 234, 242, 1);
     }
   }
 }
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .right {
+    width: 794px;
+    height: 483px;
+    padding-left: -18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contacts__container {
+    padding-top: 130px;
+    .contact {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-contact {
+      margin-bottom: 10px;
+    }
+  }
+  .right {
+    width: inherit;
+    height: 483px;
+    margin-left: -440px;
+    padding-left: -100px;
+  }
+}

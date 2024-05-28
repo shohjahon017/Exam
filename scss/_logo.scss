@@ -227,3 +227,34 @@
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .logo__container {
+    max-width: 1140px;
+  }
+}
+@media screen and (max-width: 968px) {
+  .logo__container {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo__container {
+    max-width: 120px;
+  }
+  .logo {
+    flex-direction: column;
+  }
+  .logo2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .pocatom2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: -20px;
+  }
+  .about-logo {
+    margin-left: -30px;
+  }
+}

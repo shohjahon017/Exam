@@ -17,3 +17,36 @@
     cursor: pointer;
   }
 }
+@media screen and (max-width: 1200px) {
+  .image__container {
+    width: 1100px;
+    max-width: inherit;
+  }
+  .ellipse {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .image__container {
+    img {
+      max-width: inherit;
+    }
+    .ellipse {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .image__container {
+    width: 540px;
+    max-width: inherit;
+    .ellipse {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .image__container {
+    max-width: inherit;
+  }
+}

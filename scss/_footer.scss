@@ -53,6 +53,7 @@ $orange1: rgba(255, 150, 25, 1);
     padding: 7px 11px;
     color: $white;
     margin-top: 32px;
+    transition: all 0.5s;
     &:hover {
       background-color: $white;
       color: $black;
@@ -66,4 +67,6 @@ $orange1: rgba(255, 150, 25, 1);
     margin-top: 60px;
     color: $white;
   }
+}
+@media screen {
 }
