@@ -1,0 +1,64 @@
+$exo: "Exo 2";
+$ptsans: "PT Sans";
+$gray: rgba(107, 107, 108, 1);
+$black: rgba(54, 55, 56, 1);
+$orange: rgba(255, 206, 80, 1);
+.works__container {
+  padding-top: 120px;
+  h5 {
+    font-family: $exo;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  .works__bottom {
+    display: flex;
+    gap: 30px;
+  }
+  p {
+    margin-top: -50px;
+    max-width: 667px;
+    font-family: $ptsans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $gray;
+  }
+  .block {
+    width: 393px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px 0px $black2;
+    margin-top: 56px;
+    h6 {
+      margin: 24px 32px;
+      font-family: $exo;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27px;
+      color: $black;
+    }
+    p {
+      font-family: $ptsans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 16px 32px;
+    }
+
+    a {
+      font-family: $ptsans;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 21.6px;
+      color: $black;
+      text-decoration: none;
+      border-bottom: 3px solid $orange;
+      margin: 32px;
+      &:hover {
+        background-color: greenyellow;
+        border-bottom: none;
+      }
+    }
+  }
+}
