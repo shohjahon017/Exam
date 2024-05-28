@@ -31,18 +31,18 @@ $gray: rgba(107, 107, 108, 1);
   display: flex;
   gap: 140px;
   margin-left: 164px;
-
   .about {
     display: flex;
     gap: 40px;
   }
+  .whyus__about {
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    margin-top: 72px;
+  }
 }
-.whyus__bottom-left {
-  margin-top: 72px;
-  display: flex;
-  flex-direction: column;
-  gap: 62px;
-
+.whyus__bottom {
   h5 {
     margin-top: -2px;
     font-family: $exo;
@@ -159,6 +159,39 @@ $gray: rgba(107, 107, 108, 1);
     p {
       width: 399.6px;
       font-size: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .whyus__container {
+    max-width: 341px;
+    height: 930px;
+    .rec {
+      width: 320px;
+      height: 24%;
+    }
+    h4 {
+      width: 188px;
+      font-size: 34px;
+      margin-top: 60px;
+    }
+    .whyus__about {
+      display: flex;
+      flex-direction: column;
+      margin-top: -10px;
+    }
+  }
+  .whyus__bottom {
+    display: flex;
+    flex-direction: column;
+    margin-left: 164px;
+
+    .whyus__about {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-top: 10px;
     }
   }
 }

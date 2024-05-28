@@ -5,7 +5,9 @@ $orange1: rgba(255, 150, 25, 1);
   width: 1440px;
   height: 365px;
   background-color: $darkgreen;
-
+  .foots {
+    display: flex;
+  }
   .foot {
     display: flex;
     padding-top: 80px;
@@ -17,7 +19,7 @@ $orange1: rgba(255, 150, 25, 1);
   ul {
     list-style: none;
   }
-  .foot > a {
+  .logos {
     margin-left: 95px;
     font-family: "Familjen Grotesk";
     font-size: 60px;
@@ -71,7 +73,6 @@ $orange1: rgba(255, 150, 25, 1);
 @media screen and (max-width: 1200px) {
   .footer__container {
     width: 1140px;
-    height: 681px;
     max-width: inherit;
 
     .foot {
@@ -85,12 +86,26 @@ $orange1: rgba(255, 150, 25, 1);
       font-weight: 500;
       line-height: 80px;
     }
-    a {
-      margin-left: 50px;
-    }
   }
-  .foots {
-    display: flex;
-    align-items: center;
+}
+@media screen and (max-width: 540px) {
+  .footer__container {
+    width: 375px;
+    height: 581px;
+    max-width: inherit;
+
+    .foot {
+      margin-top: 10px;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .logos {
+      padding-top: -50px;
+      margin-left: 65px;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 80px;
+    }
   }
 }
