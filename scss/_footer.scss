@@ -68,5 +68,29 @@ $orange1: rgba(255, 150, 25, 1);
     color: $white;
   }
 }
-@media screen {
+@media screen and (max-width: 1200px) {
+  .footer__container {
+    width: 1140px;
+    height: 681px;
+    max-width: inherit;
+
+    .foot {
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    .foot > a {
+      margin-left: 65px;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 80px;
+    }
+    a {
+      margin-left: 50px;
+    }
+  }
+  .foots {
+    display: flex;
+    align-items: center;
+  }
 }

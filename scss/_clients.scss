@@ -205,3 +205,59 @@ $darrk: rgba(11, 117, 114, 1);
     }
   }
 }
+@media screen and (max-width: 540px) {
+  .clients__container {
+    width: 340px;
+    height: 640px;
+    margin: 250px 100px;
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      max-width: 40px;
+      font-size: 34px;
+      line-height: 40px;
+      margin-top: -20px;
+      padding: -20px 61px;
+    }
+    .clients__box {
+      max-width: 320px;
+      margin: 0;
+      margin-top: -30px;
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+    }
+    .line3 {
+      display: none;
+      height: 0;
+    }
+  }
+
+  .boxs {
+    display: none;
+  }
+  .block2 {
+    max-width: 240px;
+    span {
+      display: none;
+    }
+  }
+  .box__head {
+    p {
+      display: none;
+    }
+    .clients_line {
+      display: none;
+    }
+  }
+}
+.clients__container {
+  .clients__box2 {
+    display: flex;
+    flex-direction: column;
+    gap: -15px;
+  }
+  .clients__box {
+  }
+}
